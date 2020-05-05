@@ -4,7 +4,7 @@
 import sys
 import optparse
 
-import meta
+from . import meta
 
 DEFAULT_MARKER = '# -'
 

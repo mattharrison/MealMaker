@@ -8,7 +8,7 @@ import mealmakerlib
 if __name__ == '__main__':
     try:
         sys.exit(mealmakerlib.main(sys.argv))
-    except Exception, e:
+    except Exception as e:
         sys.stderr.write('%s\n'%str(e))
         sys.exit(1)  
 
